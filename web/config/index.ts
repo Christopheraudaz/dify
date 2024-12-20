@@ -148,11 +148,11 @@ export const ANNOTATION_DEFAULT = {
   score_threshold: 0.9,
 }
 
-export const MAX_TOOLS_NUM = 10
+export const MAX_TOOLS_NUM = 50
 
 export const DEFAULT_AGENT_SETTING = {
   enabled: false,
-  max_iteration: 5,
+  max_iteration: 20,
   strategy: AgentStrategy.functionCall,
   tools: [],
 }
